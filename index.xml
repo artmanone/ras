@@ -3,7 +3,7 @@
   <category name="RAS">
     <category name="Track Namer">
       <reapack name="#RAS Track Namer.lua" type="script" desc="Track Namer">
-      <reapack name="#Track Data.txt" type="script" desc="Track Namer">
+      <reapack name="#Track Data.txt" type="misc" desc="Track Namer">
         <metadata>
           <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
