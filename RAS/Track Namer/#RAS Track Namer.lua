@@ -1,4 +1,8 @@
--- Track Namer v1.5.4 Modified by REAPER Community
+-- @description Track Namer
+-- @version 1.5.4
+-- @author RAS
+-- @about
+--   #RAS
 
 local script_path = debug.getinfo(1, 'S').source:match('@?(.*[\\/])') or ''
 local data_file = script_path .. "Track Data.txt"
