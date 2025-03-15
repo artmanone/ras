@@ -1,0 +1,44 @@
+Prefix1:
+V,C,I,B,PC,End
+
+Prefix2:
+(ALL Vox, Vocal Bus, Lead Vox CH, Double Vox GR, Harm Vox GR, Air Vox GR, Back Bus) LO,LI,NB,HY,AG,KO,NI,Male,Fem
+
+Name:
+{0.5, 0.7, 0.6, 0.7} (ALL Vox, Vocal Bus, Lead Vox CH) MN
+{0.5, 0.7, 0.6, 0.7} (ALL Vox, 2nd Vox CH, Vocal Bus, Double Vox GR) DBL
+{0.5, 0.7, 0.6, 0.7} (ALL Vox, 2nd Vox CH, Vocal Bus, Harm Vox GR, Air Vox GR, Back Bus) Harm,Back,Air Back,Vocal
+{0.6, 0.4, 0.5, 0.8} (Slow Attack GR, Fast Attack GR, ALL Melodic CH, Synth Bus, Pluck Bus, Brass Bus, A GTR Bus, E GTR Bus) Pad,Synth,Pluck,Keys,Lead,Brass,Bell
+{0.7, 0.7, 0.5, 0.7} (Slow Attack GR, Fast Attack GR, ALL Melodic CH, Synth Bus, Pluck Bus, Brass Bus, A GTR Bus, E GTR Bus) A GTR,E GTR,Piano,E Piano, Rhodes,Strings,Choir,Flute
+{0.5, 0.7, 0.5, 0.7} (Slow Attack GR, Fast Attack GR, ALL Melodic CH, Synth Bus, Pluck Bus, Brass Bus, A GTR Bus, E GTR Bus) Accordion,Bayan,Violin,Kalimba,Organ,Sax,Balalaika,Gusli,Harp,Marimba,Whistle,Clarnet
+{0.7, 0.4, 0.2, 0.8} (Bass Bus,Low End GR, B GTR Bus, 808 Bus, ALL Rhythm CH) Bass,808,Reese,B GTR
+{1.0, 0.3, 0.3, 0.5} (Kick Bus,Low End GR, Drum Bus, Other Drums GR, ALL Rhythm CH) Kick
+{0.9, 0.7, 0.5, 0.7} (Snare Bus, Drum Bus, Other Drums GR, ALL Rhythm CH) Rim,Snare,Clap,Snap
+{0.8, 0.6, 0.2, 0.5} (Tom Bus, Drum Bus, Other Drums GR, ALL Rhythm CH) Tom
+{1.0, 1.0, 0.0, 0.5} (Drum Bus, HH Bus, Other Drums GR, ALL Rhythm CH) HH
+{0.9, 0.5, 0.0, 0.5} (Drum Bus, Perc Bus, Other Drums GR, ALL Rhythm CH) Shaker,Perc,Tamb
+{1.0, 1.0, 0.0, 0.5} (Drum Bus, OH Bus, Other Drums GR, FX Bus, ALL Rhythm CH) Crash,Cymbal
+{1.0, 1.0, 0.0, 0.5} (Drum Bus, OH Bus, Other Drums GR, ALL Rhythm CH) Ride,OH
+{0.5, 0.7, 0.5, 0.5} (Drum Bus, Other Drums GR, ALL Rhythm CH) Drum,Beat
+{0.6, 0.6, 0.5, 0.5} (Fill Bus, Drum Bus, ALL Rhythm CH) Fill
+{0.3, 0.6, 0.6, 0.8} (FX Bus, ALL Rhythm CH) Impact,Sweep,Transition,Sub Drop
+
+Suffix:
+{0.5, 0.7, 0.4, 0.5} (ALL) Low,Mid,Hi
+{1.0, 1.0, 0.0, 0.5} (Slow Attack GR, Fast Attack GR, ALL Melodic CH, Fill Bus, Drum Bus, Snare Bus, FX Bus, ALL Rhythm CH) Top,Bottom,Stop
+{0.9, 0.7, 0.2, 0.9} (Drum Bus, Other Drums GR, ALL Rhythm CH, HH Bus) Close,Open
+{0.6, 0.4, 0.5, 0.8} (Slow Attack GR, Fast Attack GR, ALL Melodic CH, Synth Bus, Pluck Bus, Brass Bus, A GTR Bus, E GTR Bus) Arp,Strum,Solo,Chord, Trill
+{0.9, 0.7, 0.5, 0.7} (FX Bus, Bass Bus) Click,Sub
+{0.9, 0.7, 0.5, 0.7} (Slow Attack GR, Fast Attack GR, ALL Melodic CH, FX Bus, Lead Vox CH) Vox, Breathe, Calm
+{0.9, 0.8, 0.6, 0.7} (Lead Vox CH, Air Vox GR, 2nd Vox CH, Harm Vox GR, Double Vox GR) Whisper
+ 
+Ending:
+{0.2, 0.7, 0.3, 0.5} (ALL) Bus
+{0.5, 0.7, 0.6, 0.7} (ALL) L,R,Cntr,Haas
+{0.6, 0.6, 0.9, 0.5} (Bass Bus, Kick Bus, Slow Attack GR, Fast Attack GR, ALL Melodic CH, Fill Bus, Drum Bus, FX Bus, ALL Rhythm CH, Synth Bus, Pluck Bus, Brass Bus, Harm Vox GR, Double Vox GR, Air Vox GR) Wide,Dry,Wet,Soft,Bright, Take
+{0.9, 0.7, 0.5, 0.7} (Bass Bus, Kick Bus, Slow Attack GR, Fast Attack GR, ALL Melodic CH, Fill Bus, Drum Bus, HH Bus, FX Bus, ALL Rhythm CH, Lead Vox CH) Reverse,Loop
+{0.5, 0.7, 0.5, 0.7} (Fill Bus, Drum Bus, FX Bus, ALL Rhythm CH) Short,Long
+{0.4, 0.3, 0.5, 0.8} (Drum Bus, Other Drums GR, ALL Rhythm CH, HH Bus, Snare Bus, HH Bus, Slow Attack GR, Fast Attack GR, ALL Melodic CH, Synth Bus, Pluck Bus, Brass Bus, A GTR Bus, E GTR Bus) Acoustic,Inst,Parrallel
+{0.5, 0.3, 0.5, 0.8} (Drum Bus, Other Drums GR, ALL Rhythm CH, HH Bus, Snare Bus, HH Bus, Slow Attack GR, Fast Attack GR, ALL Melodic CH, Synth Bus, Pluck Bus, Brass Bus, A GTR Bus, E GTR Bus, Lead Vox CH, Air Vox GR, 2nd Vox CH, Harm Vox GR, Double Vox GR) Room, Delay, Reverb
+{0.9, 0.9, 0.5, 0.5} (Slow Attack GR, Fast Attack GR, ALL Melodic CH, Fill Bus, Drum Bus, FX Bus, ALL Rhythm CH) FX,Demo,Comp
+{0.6, 0.6, 0.5, 0.5} (ALL) 1,2,3,4,5,6,7,8,9
